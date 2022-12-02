@@ -1,0 +1,257 @@
+nav{
+	background-color:#2c2573;
+	color: black;
+}
+.nav-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.links ul li{
+	display: inline;
+	padding-top: 40px;
+
+}
+.links ul li a{
+	color: white;
+	padding: 0 30px 0 15px;
+	margin-top: 20px;
+	font-family: 'Raleway';
+	text-decoration: none;
+}
+/* SHIFT */
+nav.shift ul li a {
+  position:relative;
+  z-index: 1;
+}
+nav.shift ul li a:hover {
+  color: white;
+}
+nav.shift ul li a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 90%;
+  height: 0px;
+  content: '.';
+  color: transparent;
+  background: #9e0d0d;
+  visibility: none;
+  opacity: 0;
+  z-index: -1;
+}
+nav.shift ul li a:hover:after {
+  opacity: 1;
+  visibility: visible;
+  height: 50px;
+}
+.links{
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.links i{
+	padding-right: 7px;
+}
+.logo{
+	background-image: url('../img/logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 75px;
+}
+.home{
+	background-image: url('../img/homebg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 1000px;
+}
+.schoolname h1{
+	color: white;
+	font-size: 90px;
+	font-family: 'PASTI';
+	letter-spacing: 11px;
+
+}
+.schoolname h4{
+	color: white;
+	font-size: 17px;
+	font-family: "arial" bold;
+	letter-spacing: 3px;
+}
+.schoolname{
+	padding-top: 290px;
+}
+.bible{
+	padding-top: 660px;
+}
+.bible li{
+	font-family: 'arial';
+	list-style: none;
+	color: white;
+}
+.btn-primary{
+	height: 50px;
+	width: 260px;
+	background-color: #2c2573;
+	border-color: #2c2573;
+	font-family: arial;
+	font-size: 20px;
+}
+.about{
+    background-image: url('../img/aboutbg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 1000px;
+	text-align: center;
+	font-family: 'PASTI';
+	letter-spacing: 3px;
+}
+.abouttitle h1{
+	font-size: 50px;
+	letter-spacing: 3px;
+	color: #2c2573;
+	padding-top: 40px;
+}
+.vision{
+	padding-top: 70px;
+}
+.vision h1{
+	color: #9e0d0d;
+}
+.vision h4{
+	color: #2c2573;
+	padding-top: 30px;
+}
+.mission h1{
+	color: #9e0d0d;
+	padding-top: 70px;
+}
+.mission h4{
+	color: #2c2573;
+	padding-top: 30px;
+}
+.courses{
+	background-image: url('../img/coursesbg1.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 1000px;
+}
+.coursestitle h1{
+	font-size: 50px;
+	font-family: 'PASTI';
+	text-align: center;
+	color: #2c2573;
+	letter-spacing: 3px;
+	padding-top: 40px;
+}
+.crimpic{
+	background-image: url('../img/crim.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 300px;
+	margin-top: 80px;
+}
+.bsbades h1{
+	text-align: center;
+	letter-spacing: 3px;
+	font-family: 'PASTI';
+	color: #9e0d0d;
+	padding-top: 50px;
+}
+.bsbades li{
+	list-style: none;
+	font-family: arial;
+	color: #2c2573;
+}
+.bsbades h1{
+	text-align: center;
+	letter-spacing: 3px;
+	font-family: 'PASTI';
+	color: #9e0d0d;
+	padding-top: 100px;
+}
+.bsbades li{
+	list-style: none;
+	font-family: arial;
+	color: #2c2573;
+}
+.bsbapic{
+	background-image: url('../img/bsba.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 300px;
+	margin-top: 145px;
+}
+.courses2{
+	background-image: url('../img/coursesbg2.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 890px;
+}
+.itpic{
+	background-image: url('../img/it.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 300px;
+	margin-top: 40px;
+}
+.eddes h1{
+	text-align: center;
+	letter-spacing: 3px;
+	font-family: 'PASTI';
+	color: #9e0d0d;
+	padding-top: 100px;
+}
+.eddes li{
+	list-style: none;
+	font-family: arial;
+	color: #2c2573;
+}
+.itdes h1{
+	text-align: center;
+	letter-spacing: 3px;
+	font-family: 'PASTI';
+	color: #9e0d0d;
+	padding-top: 45px;
+}
+.itdes li{
+	list-style: none;
+	font-family: arial;
+	color: #2c2573;
+}
+.edpic{
+	background-image: url('../img/educ.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 300px;
+	margin-top: 115px;
+}
+.contact{
+	height: 50vh;
+	background-color: #9e0d0d;
+}
+.contacttitle h1{
+	font-family: 'PASTI';
+	font-size: 50px;
+	color: white;
+	letter-spacing: 3px;
+	text-align: center;
+	padding-top: 40px;
+}
+.contactinfo li{
+	display: inline;
+	font-size: 25px;
+	color: white;
+	padding: 0 50px 0 50px;
+}
+.contactinfo{
+	text-align: center;
+	padding-top: 70px;
+}
+.contactinfo i{
+	padding-right: 10px;
+}
